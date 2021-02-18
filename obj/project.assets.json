@@ -6069,19 +6069,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ya'akov Goldberg\\.nuget\\packages\\": {}
+    "C:\\Users\\Carter Ciesluk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ya'akov Goldberg\\Desktop\\Web Projects\\Web-Based-Projects-Team-5\\Breaddit.csproj",
+      "projectUniqueName": "C:\\Users\\Carter Ciesluk\\Documents\\GitHub\\Web-Based-Projects-Team-5\\Breaddit.csproj",
       "projectName": "Breaddit",
-      "projectPath": "C:\\Users\\Ya'akov Goldberg\\Desktop\\Web Projects\\Web-Based-Projects-Team-5\\Breaddit.csproj",
-      "packagesPath": "C:\\Users\\Ya'akov Goldberg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ya'akov Goldberg\\Desktop\\Web Projects\\Web-Based-Projects-Team-5\\obj\\",
+      "projectPath": "C:\\Users\\Carter Ciesluk\\Documents\\GitHub\\Web-Based-Projects-Team-5\\Breaddit.csproj",
+      "packagesPath": "C:\\Users\\Carter Ciesluk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Carter Ciesluk\\Documents\\GitHub\\Web-Based-Projects-Team-5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ya'akov Goldberg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Carter Ciesluk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
