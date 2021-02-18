@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breaddit", "Breaddit.csproj", "{90233C12-3DC0-4E48-B95F-BB4A9260ECBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Breaddit", "Breaddit.csproj", "{5A980B56-3E91-4E6A-859E-0C259DD2CCF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{90233C12-3DC0-4E48-B95F-BB4A9260ECBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90233C12-3DC0-4E48-B95F-BB4A9260ECBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90233C12-3DC0-4E48-B95F-BB4A9260ECBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90233C12-3DC0-4E48-B95F-BB4A9260ECBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A980B56-3E91-4E6A-859E-0C259DD2CCF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A980B56-3E91-4E6A-859E-0C259DD2CCF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A980B56-3E91-4E6A-859E-0C259DD2CCF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A980B56-3E91-4E6A-859E-0C259DD2CCF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D6301462-C176-4D99-AC16-3070FC6444BE}
+		SolutionGuid = {FBB95F12-0980-4866-8B30-7FC193AC02B0}
 	EndGlobalSection
 EndGlobal
