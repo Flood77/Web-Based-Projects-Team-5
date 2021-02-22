@@ -11,7 +11,7 @@ namespace Breaddit.Models
 
         bool addSlice(Slice slice);
 
-        bool deleteSlice(Slice slice);
+        bool deleteSlice(int sliceID);
 
         bool updateSlice(Slice slice);
     }
