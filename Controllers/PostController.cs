@@ -7,37 +7,27 @@ using System.Threading.Tasks;
 
 namespace Breaddit.Controllers
 {
-    public class SliceController : Controller
+    public class PostController : Controller
     {
+        // GET: PostController
         public ActionResult Index()
         {
             return View();
         }
 
-        [HttpGet]
-        public ActionResult Slice()
-        {
-            //I'm going to be real, I have no idea what I'm doing right now so I'm gonna try my best to do a mockup
-
-            //grab slice from database at specified ID
-            //var model = new Slice(); //I think?
-            //then go through each property in the model and set it to the appropriate
-            //thing within the database?
-            //return View(model);
-
-            return View();
-        }
-
+        // GET: PostController/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
+        // GET: PostController/Create
         public ActionResult Create()
         {
             return View();
         }
 
+        // POST: PostController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
@@ -52,13 +42,13 @@ namespace Breaddit.Controllers
             }
         }
 
-        // GET: SliceController/Edit/5
+        // GET: PostController/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: SliceController/Edit/5
+        // POST: PostController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
@@ -73,13 +63,13 @@ namespace Breaddit.Controllers
             }
         }
 
-        // GET: SliceController/Delete/5
+        // GET: PostController/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: SliceController/Delete/5
+        // POST: PostController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)

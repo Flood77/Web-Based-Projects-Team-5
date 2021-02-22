@@ -5,9 +5,14 @@ using System.Threading.Tasks;
 
 namespace Breaddit.Models
 {
-    public class User
+    public class Comment
     {
         int ID;
-        string name;
+        int PostID;
+        int UserID;
+        int ParentCommentID;
+        string Text;
+        int Likes;
+        int Dislikes;
     }
 }

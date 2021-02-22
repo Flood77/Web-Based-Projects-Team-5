@@ -7,5 +7,8 @@ namespace Breaddit.Models
 {
     public class Slice
     {
+        public int ID;
+        public string name;
+        public string description;
     }
 }
