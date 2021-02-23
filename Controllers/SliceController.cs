@@ -17,13 +17,7 @@ namespace Breaddit.Controllers
         [HttpGet]
         public ActionResult Slice()
         {
-            //I'm going to be real, I have no idea what I'm doing right now so I'm gonna try my best to do a mockup
-
-            //grab slice from database at specified ID
-            //var model = new Slice(); //I think?
-            //then go through each property in the model and set it to the appropriate
-            //thing within the database?
-            //return View(model);
+            var repo = new SliceRepo();
 
             return View();
         }
