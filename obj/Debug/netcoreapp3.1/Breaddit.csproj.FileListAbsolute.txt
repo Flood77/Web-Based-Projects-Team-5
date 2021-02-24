@@ -94,7 +94,6 @@ C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Deb
 C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Breaddit.TagHelpers.input.cache
 C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Breaddit.TagHelpers.output.cache
 C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Breaddit.RazorCoreGenerate.cache
-C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Home\AwesomeIndex.cshtml.g.cs
 C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
@@ -219,3 +218,5 @@ C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quar
 C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quarter 2\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Breaddit.dll
 C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quarter 2\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Breaddit.pdb
 C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quarter 2\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Breaddit.genruntimeconfig.cache
+C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Post\Post.cshtml.g.cs
+C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Slice\Slice.cshtml.g.cs

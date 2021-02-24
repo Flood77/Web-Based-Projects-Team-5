@@ -7,12 +7,12 @@ namespace Breaddit.Models
 {
     public interface IPostRepo
     {
-        IEnumerable<Post> GetAllPosts();
+        IEnumerable<Post> GetAllPosts(string table, int id);
 
-        bool addSlice(Post post);
+        bool addPost(Post post);
 
-        bool deleteSlice(int postID);
+        bool deletePost(int postID);
 
-        bool updateSlice(Post post);
+        bool updatePost(Post post);
     }
 }
