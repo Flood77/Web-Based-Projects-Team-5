@@ -10,5 +10,7 @@ namespace Breaddit.Models
         public int ID;
         public string name;
         public string description;
+        public int followers;
+        public int userID;
     }
 }
