@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zachary Rapp\\OneDrive - Neumont College of Computer Science\\Year 2\\Quarter 2\\Web Projects\\Web-Based-Projects-Team-5\\Breaddit.csproj": {}
+    "C:\\Users\\Carter Ciesluk\\Documents\\GitHub\\Web-Based-Projects-Team-5\\Breaddit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zachary Rapp\\OneDrive - Neumont College of Computer Science\\Year 2\\Quarter 2\\Web Projects\\Web-Based-Projects-Team-5\\Breaddit.csproj": {
+    "C:\\Users\\Carter Ciesluk\\Documents\\GitHub\\Web-Based-Projects-Team-5\\Breaddit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zachary Rapp\\OneDrive - Neumont College of Computer Science\\Year 2\\Quarter 2\\Web Projects\\Web-Based-Projects-Team-5\\Breaddit.csproj",
+        "projectUniqueName": "C:\\Users\\Carter Ciesluk\\Documents\\GitHub\\Web-Based-Projects-Team-5\\Breaddit.csproj",
         "projectName": "Breaddit",
-        "projectPath": "C:\\Users\\Zachary Rapp\\OneDrive - Neumont College of Computer Science\\Year 2\\Quarter 2\\Web Projects\\Web-Based-Projects-Team-5\\Breaddit.csproj",
-        "packagesPath": "C:\\Users\\Zachary Rapp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zachary Rapp\\OneDrive - Neumont College of Computer Science\\Year 2\\Quarter 2\\Web Projects\\Web-Based-Projects-Team-5\\obj\\",
+        "projectPath": "C:\\Users\\Carter Ciesluk\\Documents\\GitHub\\Web-Based-Projects-Team-5\\Breaddit.csproj",
+        "packagesPath": "C:\\Users\\Carter Ciesluk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carter Ciesluk\\Documents\\GitHub\\Web-Based-Projects-Team-5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Zachary Rapp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Carter Ciesluk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,24 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.5, )"
@@ -71,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
