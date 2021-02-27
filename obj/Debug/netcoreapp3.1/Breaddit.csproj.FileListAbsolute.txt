@@ -219,3 +219,5 @@ C:\Users\bemBlake\Documents\GitHub\Web-Based-Projects-Team-5\obj\Debug\netcoreap
 C:\Users\bemBlake\Documents\GitHub\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Breaddit.dll
 C:\Users\bemBlake\Documents\GitHub\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Breaddit.pdb
 C:\Users\bemBlake\Documents\GitHub\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Breaddit.genruntimeconfig.cache
+C:\Users\bemBlake\Documents\GitHub\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\SidebarPartial.cshtml.g.cs
+C:\Users\bemBlake\Documents\GitHub\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
