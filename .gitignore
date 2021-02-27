@@ -5,3 +5,5 @@ obj/Breaddit.csproj.nuget.g.props
 obj/Debug/netcoreapp3.1/Breaddit.assets.cache
 obj/Debug/netcoreapp3.1/Breaddit.csprojAssemblyReference.cache
 obj/project.nuget.cache
+.vs/Breaddit/config/applicationhost.config
+.vs/Breaddit/config/applicationhost.config
