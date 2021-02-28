@@ -29,6 +29,12 @@ namespace Breaddit
 
             services.AddDbContext<BreadditContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("BreadditContext")));
+
+            services.AddDbContext<YaakContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("YaakContext")));
+
+            services.AddDbContext<Yaak2Context>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("Yaak2Context")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,7 +61,7 @@ namespace Breaddit
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Post}/{action=Index}/{id?}");
             });
         }
     }

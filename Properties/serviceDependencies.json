@@ -3,6 +3,14 @@
     "mssql1": {
       "type": "mssql",
       "connectionId": "BreadditContext"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "YaakContext"
+    },
+    "mssql3": {
+      "type": "mssql",
+      "connectionId": "Yaak2Context"
     }
   }
 }
