@@ -11,6 +11,10 @@
     "mssql3": {
       "type": "mssql",
       "connectionId": "Yaak2Context"
+    },
+    "mssql4": {
+      "type": "mssql",
+      "connectionId": "BreadditContextTest"
     }
   }
 }
