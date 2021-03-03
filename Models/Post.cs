@@ -13,7 +13,7 @@ namespace Breaddit.Models
         public int SliceId { get; set; }
         public int UserId { get; set; }
         public string Title { get; set; }
-        public string PostText { get; set; }
+        public string PostText { get; set; } 
         public int Comments { get; set; }
         public int Likes { get; set; }
         public int Dislikes{ get; set; }
