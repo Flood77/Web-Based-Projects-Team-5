@@ -15,5 +15,7 @@ namespace Breaddit.Data
         }
 
         public DbSet<Breaddit.Models.Comment> Comment { get; set; }
+
+        public DbSet<Breaddit.Models.Post> Post { get; set; }
     }
 }
