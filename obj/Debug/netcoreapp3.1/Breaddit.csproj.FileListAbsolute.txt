@@ -579,3 +579,5 @@ C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quar
 C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quarter 2\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Slice\Details.cshtml.g.cs
 C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quarter 2\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Slice\Edit.cshtml.g.cs
 C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quarter 2\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Slice\Index.cshtml.g.cs
+C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quarter 2\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Post\PostPartial.cshtml.g.cs
+C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quarter 2\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Post\PostPartialView.cshtml.g.cs

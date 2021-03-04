@@ -19,9 +19,16 @@ namespace Breaddit.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int id)
         {
-            return View(await _context.Slice.ToListAsync());
+            var posts = await _context.Post.Where(p => p.SliceId == id).ToListAsync();
+            posts = posts.OrderBy(p => p.Likes).ToList();
+            posts.Reverse();
+
+            var slice = await _context.Slice.FirstOrDefaultAsync(s => s.Id == id);
+            ViewBag.Slice = slice;
+
+            return View(posts);
         }
 
         public async Task<IActionResult> Details(int? id)

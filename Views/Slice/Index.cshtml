@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Breaddit.Models.Slice>
+﻿@model IEnumerable<Breaddit.Models.Post>
 
 @{
     ViewData["Title"] = "Index";
@@ -8,48 +8,14 @@
 <h1>Index</h1>
 
 <p>
-    @Html.ActionLink("Create new", "Create")
+    @Html.ActionLink("Create new post", "Create", "Post", (Slice)ViewBag.Slice, null)
 </p>
 <table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Followers)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UserId)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
     <tbody>
-@foreach (var item in Model) {
+        @foreach (var post in Model) {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Followers)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UserId)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit") |
-                @Html.ActionLink("Details", "Details") |
-                @Html.ActionLink("Create post", "Create", "Post", new { item.Id }, null) |
-                @Html.ActionLink("Delete", "Delete")
-            </td>
+            @await Html.PartialAsync("../Post/PostPartialView", post)
         </tr>
-}
+        }
     </tbody>
 </table>
