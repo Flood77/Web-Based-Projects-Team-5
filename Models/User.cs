@@ -10,7 +10,12 @@ namespace Breaddit.Models
     {
         [Key]
         public int Id { get; set; }
+        [Required]
+        [Range(8, 32)]
         public string Name { get; set; }
+        [Required]
+        [Range(8, 32)]
+        [DataType(DataType.Password)]
         public string Password { get; set; }
     }
 }

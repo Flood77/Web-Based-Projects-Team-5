@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Breaddit.Models.Post>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    @Html.ActionLink("Create new post", "Create", "Post", (Slice)ViewBag.Slice, null)
+</p>
+<table class="table">
+    <tbody>
+        @foreach (var post in Model) {
+        <tr>
+            @await Html.PartialAsync("../Post/PostPartialView", post)
+        </tr>
+        }
+    </tbody>
+</table>
