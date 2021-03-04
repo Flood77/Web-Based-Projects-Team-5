@@ -1,5 +1,10 @@
-﻿@{
+﻿@model IEnumerable<Breaddit.Models.Post>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-@Html.Partial("../Comment/CommentPartialView")
+@foreach (var item in Model)
+{
+    @Html.Partial("../Post/PostPartialView", item)
+}

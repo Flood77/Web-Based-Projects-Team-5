@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Breaddit.Models;
+using Breaddit.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Breaddit.Controllers
 {
@@ -13,14 +15,16 @@ namespace Breaddit.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly BreadditContext _context;
+
+        public HomeController(BreadditContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            return View(await _context.Post.ToListAsync());
         }
 
         public IActionResult Privacy()

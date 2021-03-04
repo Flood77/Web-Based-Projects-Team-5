@@ -1,9 +1,23 @@
 ﻿@page
 @model Breaddit.Views.PostPartialViewModel
 
-<div>
-    <h4>Post</h4>
-    <hr />
+<div class="post-container">
+    <div class="header-container">
+        <div class="spacer"/>
+
+        @* username *@
+
+        <div class="spacer"/>
+
+        @* title *@
+
+        <div class="spacer"/>
+
+        @* slice name *@
+
+        <div class="spacer"/>
+    </div>
+
     <dl class="row">
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Post.SliceId)
