@@ -3,6 +3,18 @@
     "mssql1": {
       "type": "mssql.local",
       "connectionId": "BreadditContext"
+    },
+    "mssql2": {
+      "type": "mssql.local",
+      "connectionId": "YaakContext"
+    },
+    "mssql3": {
+      "type": "mssql.local",
+      "connectionId": "Yaak2Context"
+    },
+    "mssql4": {
+      "type": "mssql.local",
+      "connectionId": "BreadditContextTest"
     }
   }
 }

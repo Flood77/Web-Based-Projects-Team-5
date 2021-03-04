@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bemBlake\\Documents\\GitHub\\Web-Based-Projects-Team-5\\Breaddit.csproj": {}
+    "C:\\Users\\Ya'akov Goldberg\\Desktop\\Web Projects\\Web-Based-Projects-Team-5\\Breaddit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bemBlake\\Documents\\GitHub\\Web-Based-Projects-Team-5\\Breaddit.csproj": {
+    "C:\\Users\\Ya'akov Goldberg\\Desktop\\Web Projects\\Web-Based-Projects-Team-5\\Breaddit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bemBlake\\Documents\\GitHub\\Web-Based-Projects-Team-5\\Breaddit.csproj",
+        "projectUniqueName": "C:\\Users\\Ya'akov Goldberg\\Desktop\\Web Projects\\Web-Based-Projects-Team-5\\Breaddit.csproj",
         "projectName": "Breaddit",
-        "projectPath": "C:\\Users\\bemBlake\\Documents\\GitHub\\Web-Based-Projects-Team-5\\Breaddit.csproj",
-        "packagesPath": "C:\\Users\\bemBlake\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bemBlake\\Documents\\GitHub\\Web-Based-Projects-Team-5\\obj\\",
+        "projectPath": "C:\\Users\\Ya'akov Goldberg\\Desktop\\Web Projects\\Web-Based-Projects-Team-5\\Breaddit.csproj",
+        "packagesPath": "C:\\Users\\Ya'akov Goldberg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ya'akov Goldberg\\Desktop\\Web Projects\\Web-Based-Projects-Team-5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bemBlake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ya'akov Goldberg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,14 @@
               "target": "Package",
               "version": "[6.4.4, )"
             },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.12, )"
@@ -61,6 +69,14 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
             }
           },
           "imports": [
@@ -81,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
