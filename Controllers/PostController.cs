@@ -28,6 +28,7 @@ namespace Breaddit.Controllers
         // GET: Post/Details/5
         public async Task<IActionResult> Details(int? id = 1)
         {
+            //Load in comments
             var comments = await _context.Comment.Where(c => c.PostId == id).ToListAsync();
             comments = comments.OrderBy(c => c.Likes).ToList();
             comments.Reverse();
@@ -45,6 +46,9 @@ namespace Breaddit.Controllers
             {
                 return NotFound();
             }
+
+            //Get slice name
+            //var sliceName =  post.SliceId
 
             return View(post);
         }

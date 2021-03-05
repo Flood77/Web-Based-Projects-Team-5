@@ -7,60 +7,35 @@
 
 <h1>Details</h1>
 
-<div>
-    <h4>Post</h4>
+<div class="post-container">
+    <p>"s/"@ViewBag.SliceName</p>
+    <h3 class="header-container">@Html.DisplayFor(model => model.Title)</h3>
     <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SliceId)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SliceId)
+
+    @*<dl class="row">
+        <dd class="col-sm-10">
+            @ViewBag.SliceName
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UserId)
-        </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.UserId)
+            @ViewBag.PostedUserName
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PostText)
-        </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.PostText)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Comments)
-        </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Comments)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Likes)
-        </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Likes)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Dislikes)
-        </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Dislikes)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PostDate)
-        </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.PostDate)
         </dd>
         
-    </dl>
+    </dl>*@
 </div>
 <div>
     @foreach (var item in ViewBag.Comments)

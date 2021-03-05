@@ -47,3 +47,9 @@ obj/project.nuget.cache
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.json
+obj/Breaddit.csproj.nuget.g.props
+obj/project.nuget.cache
+*.cache
+.vs/Breaddit/config/applicationhost.config
+.vs/Breaddit/v16/.suo
