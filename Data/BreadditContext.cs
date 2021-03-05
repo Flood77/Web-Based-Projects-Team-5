@@ -16,6 +16,6 @@ namespace Breaddit.Data
 
         public DbSet<Post> Post { get; set; }
 
-        public DbSet<Breaddit.Models.Comment> Comment { get; set; }
+        public DbSet<Comment> Comment { get; set; }
     }
 }
