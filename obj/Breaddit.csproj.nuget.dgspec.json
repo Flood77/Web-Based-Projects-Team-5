@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bemBlake\\Documents\\GitHub\\Web-Based-Projects-Team-5\\Breaddit.csproj": {}
+    "C:\\Users\\Zachary Rapp\\OneDrive - Neumont College of Computer Science\\Year 2\\Quarter 2\\Web Projects\\Web-Based-Projects-Team-5\\Breaddit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bemBlake\\Documents\\GitHub\\Web-Based-Projects-Team-5\\Breaddit.csproj": {
+    "C:\\Users\\Zachary Rapp\\OneDrive - Neumont College of Computer Science\\Year 2\\Quarter 2\\Web Projects\\Web-Based-Projects-Team-5\\Breaddit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bemBlake\\Documents\\GitHub\\Web-Based-Projects-Team-5\\Breaddit.csproj",
+        "projectUniqueName": "C:\\Users\\Zachary Rapp\\OneDrive - Neumont College of Computer Science\\Year 2\\Quarter 2\\Web Projects\\Web-Based-Projects-Team-5\\Breaddit.csproj",
         "projectName": "Breaddit",
-        "projectPath": "C:\\Users\\bemBlake\\Documents\\GitHub\\Web-Based-Projects-Team-5\\Breaddit.csproj",
-        "packagesPath": "C:\\Users\\bemBlake\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bemBlake\\Documents\\GitHub\\Web-Based-Projects-Team-5\\obj\\",
+        "projectPath": "C:\\Users\\Zachary Rapp\\OneDrive - Neumont College of Computer Science\\Year 2\\Quarter 2\\Web Projects\\Web-Based-Projects-Team-5\\Breaddit.csproj",
+        "packagesPath": "C:\\Users\\Zachary Rapp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zachary Rapp\\OneDrive - Neumont College of Computer Science\\Year 2\\Quarter 2\\Web Projects\\Web-Based-Projects-Team-5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bemBlake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zachary Rapp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
