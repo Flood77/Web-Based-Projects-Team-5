@@ -486,3 +486,5 @@ C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Deb
 C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Post\Details.cshtml.g.cs
 C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Post\Edit.cshtml.g.cs
 C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Post\Index.cshtml.g.cs
+C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Post\PostPartial.cshtml.g.cs
+C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Post\PostPartialView.cshtml.g.cs
