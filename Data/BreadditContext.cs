@@ -9,15 +9,13 @@ namespace Breaddit.Data
 {
     public class BreadditContext : DbContext
     {
-        public BreadditContext (DbContextOptions<BreadditContext> options)
+        public BreadditContext(DbContextOptions<BreadditContext> options)
             : base(options)
         {
         }
 
         public DbSet<Comment> Comment { get; set; }
-
-        public DbSet<Breaddit.Models.Post> Post { get; set; }
-
-        public DbSet<Breaddit.Models.Slice> Slice { get; set; }
+        public DbSet<Post> Post { get; set; }
+        public DbSet<Slice> Slice { get; set; }
     }
 }

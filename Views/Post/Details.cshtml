@@ -7,61 +7,39 @@
 
 <h1>Details</h1>
 
-<div>
-    <h4>Post</h4>
+<div class="post-container">
+    <p>"s/"@ViewBag.SliceName</p>
+    <h3 class="header-container">@Html.DisplayFor(model => model.Title)</h3>
     <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SliceId)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SliceId)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UserId)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.UserId)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PostText)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PostText)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Comments)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Comments)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Likes)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Likes)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Dislikes)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Dislikes)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PostDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PostDate)
-        </dd>
-    </dl>
+
+    @*<dl class="row">
+            <dd class="col-sm-10">
+                @ViewBag.SliceName
+            </dd>
+            <dd class = "col-sm-10">
+                @ViewBag.PostedUserName
+            </dd>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.PostText)
+            </dd>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Comments)
+            </dd>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Likes)
+            </dd>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Dislikes)
+            </dd>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.PostDate)
+            </dd>
+
+        </dl>*@
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    @foreach (var item in ViewBag.Comments)
+    {
+        @Html.Partial("../Comment/CommentPartialView", (Comment)item);
+    }
 </div>

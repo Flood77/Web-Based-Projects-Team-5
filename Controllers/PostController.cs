@@ -26,8 +26,15 @@ namespace Breaddit.Controllers
         }
 
         // GET: Post/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(int? id = 1)
         {
+            //Load in comments
+            var comments = await _context.Comment.Where(c => c.PostId == id).ToListAsync();
+            comments = comments.OrderBy(c => c.Likes).ToList();
+            comments.Reverse();
+
+            ViewBag.Comments = comments;
+
             if (id == null)
             {
                 return NotFound();
@@ -40,16 +47,16 @@ namespace Breaddit.Controllers
                 return NotFound();
             }
 
+            //Get slice name
+            var sliceName = _context.Slice.Where(s => s.Id == post.SliceId).FirstOrDefault();
+            ViewBag.SliceName = sliceName.Name;
+
             return View(post);
         }
 
         // GET: Post/Create
-        public IActionResult Create(int? id)
+        public IActionResult Create()
         {
-            ViewBag.SliceId = id;
-            ViewBag.SliceName = _context.Slice.Find(id).Name;
-            Console.WriteLine(ViewBag.SliceName);
-
             return View();
         }
 
