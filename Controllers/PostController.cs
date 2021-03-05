@@ -48,7 +48,8 @@ namespace Breaddit.Controllers
             }
 
             //Get slice name
-            //var sliceName =  post.SliceId
+            var sliceName = _context.Slice.Where(s => s.Id == post.SliceId).FirstOrDefault();
+            ViewBag.SliceName = sliceName.Name;
 
             return View(post);
         }

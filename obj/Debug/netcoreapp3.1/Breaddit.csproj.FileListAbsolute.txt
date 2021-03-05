@@ -219,7 +219,6 @@ C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quar
 C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quarter 2\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Breaddit.pdb
 C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quarter 2\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Breaddit.genruntimeconfig.cache
 C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Post\Post.cshtml.g.cs
-C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Slice\Slice.cshtml.g.cs
 C:\Users\Carter Ciesluk\Documents\GitHub\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Breaddit.csprojAssemblyReference.cache
 C:\Users\Carter Ciesluk\Documents\GitHub\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Breaddit.AssemblyInfoInputs.cache
 C:\Users\Carter Ciesluk\Documents\GitHub\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Breaddit.AssemblyInfo.cs
@@ -577,4 +576,15 @@ C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quar
 C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quarter 2\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Post\Post.cshtml.g.cs
 C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quarter 2\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Post\PostPartial.cshtml.g.cs
 C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quarter 2\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Post\PostPartialView.cshtml.g.cs
+<<<<<<< Updated upstream
 C:\Users\Zachary Rapp\OneDrive - Neumont College of Computer Science\Year 2\Quarter 2\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Slice\Slice.cshtml.g.cs
+=======
+C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Post\PostPartial.cshtml.g.cs
+C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Post\PostPartialView.cshtml.g.cs
+C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Slice\Create.cshtml.g.cs
+C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Slice\Delete.cshtml.g.cs
+C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Slice\Details.cshtml.g.cs
+C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Slice\Edit.cshtml.g.cs
+C:\Users\Ya'akov Goldberg\Desktop\Web Projects\Web-Based-Projects-Team-5\obj\Debug\netcoreapp3.1\Razor\Views\Slice\Index.cshtml.g.cs
+>>>>>>> Stashed changes
