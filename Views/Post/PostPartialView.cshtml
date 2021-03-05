@@ -1,57 +1,57 @@
 ﻿@page
-@model Breaddit.Views.PostPartialViewModel
+@model Breaddit.Models.Post
 
 <div>
     <h4>Post</h4>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Post.SliceId)
+            @Html.DisplayNameFor(model => model.SliceId)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Post.SliceId)
+            @Html.DisplayFor(model => model.SliceId)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Post.UserId)
+            @Html.DisplayNameFor(model => model.UserId)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Post.UserId)
+            @Html.DisplayFor(model => model.UserId)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Post.Title)
+            @Html.DisplayNameFor(model => model.Title)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Post.Title)
+            @Html.DisplayFor(model => model.Title)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Post.PostText)
+            @Html.DisplayNameFor(model => model.PostText)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Post.PostText)
+            @Html.DisplayFor(model => model.PostText)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Post.Comments)
+            @Html.DisplayNameFor(model => model.Comments)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Post.Comments)
+            @Html.DisplayFor(model => model.Comments)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Post.Likes)
+            @Html.DisplayNameFor(model => model.Likes)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Post.Likes)
+            @Html.DisplayFor(model => model.Likes)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Post.Dislikes)
+            @Html.DisplayNameFor(model => model.Dislikes)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Post.Dislikes)
+            @Html.DisplayFor(model => model.Dislikes)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Post.PostDate)
+            @Html.DisplayNameFor(model => model.PostDate)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Post.PostDate)
+            @Html.DisplayFor(model => model.PostDate)
         </dd>
     </dl>
 </div>
