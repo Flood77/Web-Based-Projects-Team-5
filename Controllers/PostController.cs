@@ -44,8 +44,12 @@ namespace Breaddit.Controllers
         }
 
         // GET: Post/Create
-        public IActionResult Create()
+        public IActionResult Create(int? id)
         {
+            ViewBag.SliceId = id;
+            ViewBag.SliceName = _context.Slice.Find(id).Name;
+            Console.WriteLine(ViewBag.SliceName);
+
             return View();
         }
 
